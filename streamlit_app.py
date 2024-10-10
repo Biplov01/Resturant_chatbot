@@ -50,7 +50,7 @@ Install the LangChain libraries required for this notebook:
 """
 
 import os
-
+import numpy
 # initialize connection to pinecone (orget API key at app.pinecone.io)
 if not os.environ.get("PINECONE_API_KEY"):
     from pinecone_notebooks.colab import Authenticate
